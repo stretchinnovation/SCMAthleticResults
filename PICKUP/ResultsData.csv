@@ -1,28 +1,10 @@
 Seq,Item,Gender,Age,Round,Heat,Time,Wind
-1,400m,Men,25,F,0.00,07:00,
-Place,Surname,Firstname,Number,Team,Performance,Score,
-1,MJOLI,ANELISIWE,670,CAH,2.10,398,
-2,MZIMBA,AMAHLE,946,ACE,2.70,870,
-3,MZIMBA,AMAHLE.,946,DDC,2.80,901,
-4,Olusola,Wanjiku,337,CDE,2.40,309,
-5,Campbell,Winterveld,288,CCE,2.10,364,
-6,Jillian,Keen,448,FIC,2.20,349,
-7,Tiara,Flower,937,EAH,2.10,327,
-8,Custódia,Amyas,882,FAI,2.50,400,
-9,Oluwatosin,Dahiru,128,BIB,2.20,361,
-10,Tamika,Blaire,306,FIB,2.20,386,
-11,Franco,Adrichem,912,CHD,2.20,313,
-12,Yuna,Batts,614,FIH,2.80,305,
-13,Newton,Beckham,784,GFD,2.90,337,
-14,Shae,Schofield,763,BCH,2.60,397,
-15,Malachi,Dirkse,447,ECE,2.80,358,
-16,Myrtle,Mortimer,816,ADF,2.20,365,
-17,Kory,Matthews,324,GGD,2.20,370,
-18,Emmett,Cowden,425,CHI,2.80,320,
-19,Katelynn,Elvin,358,HFB,2.50,331,
-20,Angela,Sanford,338,GGC,2.80,342,
-21,Jessica,Leon,163,GBB,2.60,392,
-22,Celestino,Barron,802,AIG,2.10,337,
-23,Mandlenkosi,Cokes,583,HAH,2.80,348,
-24,Josceline,Jordan,652,GAH,2.90,349,
-25,Nomusa,Gibbs,703,HAB,2.50,378,
+27,Women 200m (TVET),Women,22,A,1,10:10,
+Place,Surname,Firstname,Number,Team,Performance,Score
+1,LUSHABA,SIMANGELE,21,COA,12.90,0
+2,NTLANAKO,NTSOAKI,101,ELA,12.94,0
+3,SIBISI,AYABONGA,255,MFO,13.62,0
+4,VILAKAZI,LUYANDA,257,MFO,13.80,0
+5,SGWEBELA,NTOMBENHLE (P),103,ELA,13.85,0
+6,MAFENKQE,ABULELANI,253,MFO,14.25,0
+7,NDOKWENI,SBAHLE,99,ELA,15.01,0
