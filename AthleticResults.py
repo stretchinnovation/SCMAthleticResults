@@ -182,11 +182,11 @@ else:
     
     # Render styled table and head string inside a RESULTS div
     st.markdown(
-    """
+    f"""
     <div id="RESULTS">
         <div class="custom-subheader">{head}</div>
         {styled.to_html()}
     </div>
     """,
-        unsafe_allow_html=True
-    )
+    unsafe_allow_html=True
+)
