@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import streamlit.components.v1 as components
 
 import glob
 files = glob.glob("PICKUP/ResultsData.csv")
@@ -189,6 +190,7 @@ if files:
     """,
     unsafe_allow_html=True
     )
-    st.markdown(styled.to_html(), unsafe_allow_html=True)
+    # Render the styled table
+    st.html(styled.to_html(), height=auto, scrolling=True)
 else:
     st.error("No CSV files found in PICKUP/")
