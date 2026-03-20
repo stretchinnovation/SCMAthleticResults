@@ -182,18 +182,17 @@ if files:
         unsafe_allow_html=True
     )
     
-    # Render styled table and head string inside a RESULTS div
+   # Render header
     st.markdown(
-    f"""
-    <div id="RESULTS">
-        <div class="custom-subheader">{head}</div>
-    </div>
-    """,
-    unsafe_allow_html=True
+        f"""
+        <div id="RESULTS">
+            <div class="custom-subheader">{head}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
     )
-    # Render the styled table
-    st.text(styled.to_html())
-
-    components.html(styled.to_html(), height=auto, scrolling=True)
+    
+    # Render the styled table properly
+    components.html(styled.to_html())#, height=600, scrolling=True)
 else:
     st.error("No CSV files found in PICKUP/")
