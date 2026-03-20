@@ -44,17 +44,17 @@ if files:
     age = int(df1.iloc[0]["Age"])
     item = str(df1.iloc[0]["Item"])
     
-    if round == "F":
-        round = "FINAL"
-    else: 
-        round = "HEAT "+heat
+if round == "F":
+    round = "FINAL"
+else: 
+    round = "HEAT "+heat
 
-   if age < 20:
-        age = "U19"
-    elif age in range (20,30):
-        age = "SENIOR"
-    else: 
-        age = "MASTERS" #+str(age)
+if age < 20:
+    age = "U19"
+elif age in range (20,30):
+    age = "SENIOR"
+else: 
+    age = "MASTERS" #+str(age)
     
     # Now you can build your head string in any order you like
     head = f"{round} {gender} {age} {item}"
