@@ -49,27 +49,13 @@ if files:
     else: 
         round = "HEAT "+heat
 
-    if age in range(24,30):
+   if age < 20:
+        age = "U19"
+    elif age in range (20,30):
         age = "SENIOR"
-    elif age in range(35,40):
-        age = "MASTERS 35-39"
-    elif age in range(45,50):
-        age = "MASTERS 45-49"
-    elif age in range(55,60):
-        age = "MASTERS 55-59"
-    elif age in range(65,70):
-        age = "MASTERS 65-69"
-    elif age in range(75,80):
-        age = "MASTERS 75-79"
-    elif age in range(85,90):
-        age = "MASTERS 85-89"
-    elif age in range(95,100):
-        age = "MASTERS 95-99"
-    elif age > 99:
-        age = "MASTERS 99+"
     else: 
-        age = "U"+str(age)
-
+        age = "MASTERS" #+str(age)
+    
     # Now you can build your head string in any order you like
     head = f"{round} {gender} {age} {item}"
 
