@@ -55,7 +55,7 @@ if files:
 
     # Specify which columns you want to show
     columns_to_show = ["Place", "Surname", "Firstname", "Number", "Team", "Performance"]
-    
+    st.dataframe(df2[columns_to_show])
     # Load Poppins font globally
     st.markdown(
         """
