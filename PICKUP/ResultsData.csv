@@ -1,8 +1,5 @@
 Seq,Item,Gender,Age,Round,Heat,Time,Wind
-1,400m Hurdles,Men,27,F,0,07:00,
-Place,Surname,Firstname,Number,Team,Performance,Score,
-1,MZIMBA,AMAHLE,946,ULD,01:38.3,881,
-2,MJOLI,ANELISIWE,670,DUM,01:40.9,870,
-3,JANSE VAN VUUREN,JOHANNES,123,ABC,02:04.6,901,
-4,SMITH,JOE,456,DEF,05:05:05,902,
-5,BARR,FOO,798,XYZ,06:06:06,903,
+4,10km,Men,25,F,0,06:00,
+Place,Surname,Firstname,Number,Team,Performance,Score
+1,NOSE,NCWENGA,384,PHA,30:18.38,0
+2,GOBA,SPHAMANDLA,395,SAV,32:02.20,0
