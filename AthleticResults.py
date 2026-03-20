@@ -54,7 +54,7 @@ else:
 
     # Specify which columns you want to show
     columns_to_show = ["Place", "Surname", "Firstname", "Number", "Team", "Performance"]
-
+    
     # Load Poppins font globally
     st.markdown(
         """
