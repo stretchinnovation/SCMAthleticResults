@@ -192,7 +192,8 @@ if files:
         unsafe_allow_html=True
     )
     
-    # Render the styled table properly
-    components.html(styled.to_html(), height=800, scrolling=True)
+    # Render the styled table
+    html_table = styled.to_html()
+    components.html(html_table, height=800, scrolling=True)
 else:
     st.error("No CSV files found in PICKUP/")
