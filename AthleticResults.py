@@ -167,6 +167,7 @@ styled = (
         ]
     )
 )
+
 # Inject CSS for centering
 st.markdown(
     """
@@ -185,16 +186,14 @@ st.markdown(
 )
 
 # Render header
-st.markdown(
+st.html(
     f"""
     <div id="RESULTS">
         <div class="custom-subheader">{head}</div>
-    </div>
-    """,
-    unsafe_allow_html=True
+    {styled.to_html()}
+</div>
+"""
 )
-
 # Render the styled table
-html_table = styled.to_html()
-components.html(html_table, height=800, scrolling=True)
-
+#html_table = styled.to_html()
+#components.html(html_table, height=800, scrolling=True)
