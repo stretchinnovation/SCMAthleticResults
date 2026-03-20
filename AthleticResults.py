@@ -185,10 +185,10 @@ if files:
     f"""
     <div id="RESULTS">
         <div class="custom-subheader">{head}</div>
-        {styled.to_html()}
     </div>
     """,
     unsafe_allow_html=True
     )
+    st.markdown(styled.to_html(), unsafe_allow_html=True)
 else:
     st.error("No CSV files found in PICKUP/")
