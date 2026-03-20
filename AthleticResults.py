@@ -57,7 +57,7 @@ else:
     age = "MASTERS" #+str(age)
     
     # Now you can build your head string in any order you like
-    head = f"{round} {gender} {age} {item}"
+    head = f"{round} {age} {gender} {item}"
 
     # Display the string instead of the DataFrame
     #st.subheader("Header Row 1 Data")
