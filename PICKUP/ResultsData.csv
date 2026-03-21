@@ -1,7 +1,4 @@
 Seq,Item,Gender,Age,Round,Heat,Time,Wind
-115,Shotput,Men,25,F,0,10:00,
+99,HighJump (TVET),Women,22,F,0,08:00,
 Place,Surname,Firstname,Number,Team,Performance,Score
-1,ZUNGU,ANDISWA,369,NCS,09.53,0
-2,LWANDLE,DLAMINI,326,MTU,09.44,0
-3,TSHUMA,TERRENCE,368,NCS,09.30,0
-4,MKHIZE,MLONDI.,96.,ELA,09.10,0
+1,MKHIZE,ANDISWA,27,COA,1.20,0
