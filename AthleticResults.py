@@ -38,6 +38,8 @@ else:
     
 if round == "F":
     round = "FINAL"
+elif round == "SF":
+    round = "SEMI FINAL"
 else: 
     round = "HEAT "+heat
 
